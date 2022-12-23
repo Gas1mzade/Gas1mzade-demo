@@ -74,4 +74,32 @@ a:hover {
     color: #2b0bca;
     font-size: 30px;
   }
+}
+
+#demo2 {
+  padding: 100px 0 100px;
+}
+#demo2 .minibox {
+  width: 150px;
+  border: 2px solid #0c88db;
+  margin: 50px 100px 100px;
+  text-align: center;
+  background-color: #c9dfed;
+}
+#demo2 .minibox h1 {
+  font-size: 30px;
+}
+#demo2 .minibox:hover {
+  border-radius: 20px;
+}
+#demo2 .minibox:hover h1 {
+  font-size: 60px;
+}
+@media screen and (max-width: 800px) {
+  #demo2 .minibox {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #bd3032;
+  }
 }/*# sourceMappingURL=style.css.map */
