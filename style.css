@@ -102,4 +102,39 @@ a:hover {
     height: 100px;
     border: 3px solid #bd3032;
   }
+}
+
+#demo3 .minibox {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #10dd5f;
+  transition: 1s;
+}
+#demo3 .minibox h1 {
+  font-size: 30px;
+}
+#demo3 .minibox h3 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+#demo3 .minibox:hover {
+  background-color: rgba(195, 97, 0, 0.3725490196);
+  width: 400px;
+  height: 400px;
+}
+#demo3 .minibox:hover h3 {
+  color: #01dad3;
+  font-size: 80px;
+}
+@media screen and (max-width: 900px) {
+  #demo3 .minibox {
+    width: 150px;
+    height: 150px;
+    background-color: #e90606;
+  }
+  #demo3 .minibox h3 {
+    color: #3f3c3c;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
