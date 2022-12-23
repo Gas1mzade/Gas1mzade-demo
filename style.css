@@ -14,15 +14,35 @@ a:hover {
   width: 200px;
   height: 100px;
   transition: 2s;
-  border: 1px solid #ab1212;
+  border: 2px solid #ab1212;
+}
+#demo .minibox h1 {
+  font-size: 70px;
 }
 #demo .minibox:hover {
   width: 300px;
+  border: 10px solid #cbc259;
 }
-@media screen and (min-width: 576px) {
+#demo .minibox:hover h1 {
+  font-size: 60px;
+}
+@media screen and (max-width: 900px) {
   #demo .minibox {
     color: #324d9e;
-    border: 2px solid #aa8319;
+    border: 4px solid #aa8319;
     width: 100px;
+  }
+  #demo .minibox h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 200px) {
+  #demo .minibox {
+    border: 10px solid #070707;
+    width: 130px;
+    color: #c80064;
+  }
+  #demo .minibox h1 {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
