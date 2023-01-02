@@ -137,4 +137,39 @@ a:hover {
     color: #3f3c3c;
     font-size: 30px;
   }
+  #demo3 .minibox:hover {
+    background-color: #9c0101;
+  }
+}
+
+#demo4 {
+  padding: 50px 0 50px;
+}
+#demo4 .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #d6bf11;
+  background-color: #0cd07b;
+  text-align: center;
+  transition: 1s;
+}
+#demo4 .minibox h1 {
+  font-size: 20px;
+}
+#demo4 .minibox:hover {
+  border-radius: 100px;
+  background-color: #5d4747;
+  border: 2px solid #08a6bb;
+}
+#demo4 .minibox:hover h1 {
+  color: #d10f94;
+  font-size: 50px;
+}
+@media screen and (max-width: 700px) {
+  #demo4 .minibox {
+    border: 5px solid #0b0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
